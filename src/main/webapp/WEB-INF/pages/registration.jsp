@@ -8,6 +8,8 @@
     <form method="post" action="/battleship/registration">
         <label>Enter you name</label>
         <input id="username" type="text" name="username">
+        ${errorHolder.message}
+
         <br>
         <button type="submit">Start!</button>
     </form>
