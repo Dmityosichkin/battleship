@@ -11,6 +11,9 @@ public class Game {
 
 
     }
+    public boolean isReady() {
+        return player1.isReady() && player2.isReady();
+    }
 
     public User getPlayer1() {
         return player1;
@@ -29,3 +32,4 @@ public class Game {
         this.player2 = player2;
     }
 }
+
